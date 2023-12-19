@@ -11,19 +11,44 @@ Include your ER diagram here
 
 ### STEP 1:
 
+clone the github repository
+
 ### STEP 2:
+
+write the appropriate code
+
+
 
 ### STEP 3:
 
-Write your own steps
+run the program.
 
 ## PROGRAM
+```
+from django.db import models
+from django.contrib import admin
+# Create your models here.
+class Student (models.Model):
+    referencenumber=models.CharField(primary_key=True,max_length=20,help_text="reference number")
+    name=models.CharField(max_length=100)
+    age=models.IntegerField()
+    email=models.EmailField()
+    mobileno=models.IntegerField()
 
-Include your code here
+class StudentAdmin(admin.ModelAdmin):
+    list_display=('referencenumber','name','age','email','mobileno')
+    from django.contrib import admin
+from django.urls import path
 
+urlpatterns = [
+    path('admin/', admin.site.urls),
+]
+
+```
 ## OUTPUT
 
-Include the screenshot of your admin page.
+![output](./table.png)
 
 
 ## RESULT
+Thus the program is excecuted successfully
