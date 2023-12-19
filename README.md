@@ -47,7 +47,7 @@ urlpatterns = [
 ```
 ## OUTPUT
 
-![output](./table.png)
+![output](table.png)
 
 
 ## RESULT
