@@ -47,7 +47,8 @@ urlpatterns = [
 ```
 ## OUTPUT
 
-![output](table.png)
+
+![table](https://github.com/PreethiS647/django-orm-app/assets/147313372/e6e50656-19cf-4361-a14e-28fc3cc12ef0)
 
 
 ## RESULT
